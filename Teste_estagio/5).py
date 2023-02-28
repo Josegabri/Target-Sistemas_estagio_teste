@@ -2,7 +2,7 @@
 string = 'estagio'
 string_invertida=''
 tamanho_string= len(string)
-for i in range (6, 0,-1): 
+for i in range ((tamanho_string-1), 0,-1): 
     string_invertida += string[i]
 
 print(string_invertida)
